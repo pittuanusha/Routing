@@ -1,0 +1,15 @@
+<!-- <p>
+  home works!
+</p> -->
+
+  UserName<input type="text" [(ngModel)]="empname">
+  Password<input type="text" [(ngModel)]="Password">
+  <table>
+     <tr *ngFor="let emp of employeees">
+      <td>{{emp.name}}</td>
+      <td>{{emp.pwd}}</td>
+    </tr>
+  </table>
+
+
+  <button  name="names"  (click)="btnClick()">Login</button>
